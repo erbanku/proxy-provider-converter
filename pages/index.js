@@ -1,7 +1,10 @@
 import Head from "next/head";
 import { useState } from "react";
 import { CopyToClipboard } from "react-copy-to-clipboard";
-import { SelectorIcon, DuplicateIcon } from "@heroicons/react/outline";
+import {
+  ChevronUpDownIcon,
+  DocumentDuplicateIcon,
+} from "@heroicons/react/24/outline";
 import toast, { Toaster } from "react-hot-toast";
 
 let host = "";
@@ -116,7 +119,7 @@ ${urlHost || "egroup"} = select, policy-path=${convertedUrl}
                 <option value="clash">转换到 Clash</option>
                 <option value="surge">转换到 Surge</option>
               </select>
-              <SelectorIcon className="absolute h-6 top-3.5 right-3 text-gray-400" />
+              <ChevronUpDownIcon className="absolute h-6 top-3.5 right-3 text-gray-400" />
             </div>
           </div>
         </div>
@@ -126,7 +129,7 @@ ${urlHost || "egroup"} = select, policy-path=${convertedUrl}
 
             <CopyToClipboard text={convertedUrl} onCopy={() => copiedToast()}>
               <div className="flex items-center text-sm mt-4 text-gray-400  cursor-pointer  hover:text-gray-300 transition duration-200 select-none">
-                <DuplicateIcon className="h-5 w-5 mr-1 inline-block" />
+                <DocumentDuplicateIcon className="h-5 w-5 mr-1 inline-block" />
                 点击复制
               </div>
             </CopyToClipboard>
@@ -147,7 +150,7 @@ ${urlHost || "egroup"} = select, policy-path=${convertedUrl}
               onCopy={() => copiedToast()}
             >
               <div className="flex items-center text-sm mt-4 text-gray-400 cursor-pointer hover:text-gray-300 transition duration-200 select-none">
-                <DuplicateIcon className="h-5 w-5 mr-1 inline-block" />
+                <DocumentDuplicateIcon className="h-5 w-5 mr-1 inline-block" />
                 点击复制
               </div>
             </CopyToClipboard>
