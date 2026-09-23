@@ -1,6 +1,10 @@
 # Changelogs for proxy-provider-converter
 > Created and Maintained by @erbanku and fellow AI agents
 
+## 09/23/2026
+
+- Security: bump `next` to 16.3.6 for GHSA-vcvr-r3jv-pc5j
+
 ## 09/14/2026
 
 - Security: upgrade `next` from 14.2.35 to 16.3.5 for GHSA-2xp9-vwfh-vxw4 / CVE-2026-75604 (no patched 14.x release)
