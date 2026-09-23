@@ -11,7 +11,7 @@
     "@next/bundle-analyzer": "^16.3.5",
     "@splitbee/web": "^0.3.0",
     "axios": "^1.20.0",
-    "next": "^16.3.5",
+    "next": "16.3.6",
     "preact": "^10.29.8",
     "react": "^19.3.0",
     "react-copy-to-clipboard": "^5.1.1",
