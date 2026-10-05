@@ -9,7 +9,7 @@ Proxy Provider Converter — Next.js Pages Router app that converts Clash subscr
 | Component | Version |
 |:---------:|:--------|
 | Runtime | Bun 1.4.2 |
-| Framework | Next.js 16.3.5 (Pages Router) |
+| Framework | Next.js 16.3.8 (Pages Router) |
 | UI | React 19, Tailwind CSS 3, Preact (production client alias) |
 | Lockfile | `bun.lock` only |
 
@@ -26,6 +26,6 @@ bun run start
 
 - Next.js 16 defaults to Turbopack; this project uses `--webpack` because `next.config.js` aliases React to Preact in production client builds.
 - No `eslint-config-next` in this repo.
-- Security baseline: `next` must stay at or above 16.3.3 (GHSA-2xp9-vwfh-vxw4, CVE-2026-75604). There is no patched release on the 14.x line.
+- Security baseline: `next` must stay at or above 16.3.8 (September 2026 release; see https://nextjs.org/blog/september-2026-security-release). There is no patched release on the 14.x line.
 
-Last updated: 2026-09-14
+Last updated: 2026-10-02

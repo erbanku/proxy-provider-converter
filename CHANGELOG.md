@@ -1,6 +1,10 @@
 # Changelogs for proxy-provider-converter
 > Created and Maintained by @erbanku and fellow AI agents
 
+## 10/02/2026
+
+- Security: bump `next` to 16.3.8 (September 2026 security release); align `@next/bundle-analyzer` to 16.3.8
+
 ## 09/23/2026
 
 - Security: bump `next` to 16.3.6 for GHSA-vcvr-r3jv-pc5j
